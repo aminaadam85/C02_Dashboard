@@ -306,7 +306,10 @@ with col1:
     else:
         summary_value = df_latest_year["Value"].mean()
         card_label = f"Average in {latest_year}"
-    st.metric(card_label, f"{summary_value:,.1f}")
+    if pd.isna(summary_value):
+        st.metric(card_label, "N/A")
+    else:
+        st.metric(card_label, f"{summary_value:,.1f}")
 
 with col2:
     # Show the country with the highest value
