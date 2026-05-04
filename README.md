@@ -5,7 +5,7 @@ An interactive Dashboard built with Streamlit to analyse global CO2 and Greenhou
 CO2 and Greenhouse Gas Emissions dataset from Our World In Data / World Bank.
 Covers 217 countries across 76 indicators from 1750 to 2023.
 
-Features used:
+Dashboard Features:
 - Filter by country and year range using sidebar controls.
 - Trend Tab: CO2 emissions over time with line and stacked area charts
 - World Map Tab: choropleth map of emissions by country
